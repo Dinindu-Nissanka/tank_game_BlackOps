@@ -1,0 +1,6 @@
+c:\users\dinindu123\documents\visual studio 2013\Projects\TankGame_BlackOps\TankGame_BlackOps\bin\Debug\TankGame_BlackOps.exe.config
+c:\users\dinindu123\documents\visual studio 2013\Projects\TankGame_BlackOps\TankGame_BlackOps\bin\Debug\TankGame_BlackOps.exe
+c:\users\dinindu123\documents\visual studio 2013\Projects\TankGame_BlackOps\TankGame_BlackOps\bin\Debug\TankGame_BlackOps.pdb
+c:\users\dinindu123\documents\visual studio 2013\Projects\TankGame_BlackOps\TankGame_BlackOps\obj\Debug\TankGame_BlackOps.csprojResolveAssemblyReference.cache
+c:\users\dinindu123\documents\visual studio 2013\Projects\TankGame_BlackOps\TankGame_BlackOps\obj\Debug\TankGame_BlackOps.exe
+c:\users\dinindu123\documents\visual studio 2013\Projects\TankGame_BlackOps\TankGame_BlackOps\obj\Debug\TankGame_BlackOps.pdb

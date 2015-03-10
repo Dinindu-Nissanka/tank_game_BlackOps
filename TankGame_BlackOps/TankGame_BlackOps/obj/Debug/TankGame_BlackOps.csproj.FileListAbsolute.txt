@@ -4,3 +4,14 @@ c:\users\dinindu123\documents\visual studio 2013\Projects\TankGame_BlackOps\Tank
 c:\users\dinindu123\documents\visual studio 2013\Projects\TankGame_BlackOps\TankGame_BlackOps\obj\Debug\TankGame_BlackOps.csprojResolveAssemblyReference.cache
 c:\users\dinindu123\documents\visual studio 2013\Projects\TankGame_BlackOps\TankGame_BlackOps\obj\Debug\TankGame_BlackOps.exe
 c:\users\dinindu123\documents\visual studio 2013\Projects\TankGame_BlackOps\TankGame_BlackOps\obj\Debug\TankGame_BlackOps.pdb
+C:\Users\User\Documents\NetBeansProjects\TankGame\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\bin\Debug\TankGame_BlackOps.exe.config
+C:\Users\User\Documents\NetBeansProjects\TankGame\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\obj\Debug\TankGame_BlackOps.exe
+C:\Users\User\Documents\NetBeansProjects\TankGame\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\obj\Debug\TankGame_BlackOps.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\obj\Debug\TankGame_BlackOps.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\obj\Debug\TankGame_BlackOps.Main_window.resources
+C:\Users\User\Documents\Visual Studio 2013\Projects\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\obj\Debug\TankGame_BlackOps.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2013\Projects\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\obj\Debug\TankGame_BlackOps.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\bin\Debug\TankGame_BlackOps.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\bin\Debug\TankGame_BlackOps.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\bin\Debug\TankGame_BlackOps.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\obj\Debug\TankGame_BlackOps.exe

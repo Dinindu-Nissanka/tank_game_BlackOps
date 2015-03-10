@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace TankGame_BlackOps.Cell
 {
-    class Stone : Cell
+    public class Stone : Cell
     {
         public Stone(int x, int y) {
             this.x = x;
             this.y = y;
+            this.img = TankGame_BlackOps.Properties.Resources.ice;
         }
     }
 }

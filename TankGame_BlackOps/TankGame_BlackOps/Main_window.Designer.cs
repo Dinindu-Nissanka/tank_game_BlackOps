@@ -44,10 +44,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(688, 345);
+            this.ClientSize = new System.Drawing.Size(579, 345);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Main_window";
             this.Text = "Main_window";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Main_window_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

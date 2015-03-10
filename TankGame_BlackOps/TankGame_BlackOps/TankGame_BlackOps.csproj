@@ -48,7 +48,8 @@
     <Compile Include="Cell\Cell.cs" />
     <Compile Include="Cell\Stone.cs" />
     <Compile Include="Cell\Water.cs" />
-    <Compile Include="Communication\Message_Sender.cs" />
+    <Compile Include="Communication\Communitator.cs" />
+    <Compile Include="Communication\Decoder.cs" />
     <Compile Include="Game_Engine\BlackOps_tank.cs" />
     <Compile Include="Game_Engine\Bullet.cs" />
     <Compile Include="Game_Engine\Enemy.cs" />

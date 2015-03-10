@@ -12,12 +12,12 @@ namespace TankGame_BlackOps.Communication
         private string[] initMessage;
         public void Decode_message(string message){
             initMessage = Regex.Split(message, ":");
-            switch(initMessage[0]){
+            /*switch(initMessage[0]){
                 case "I":
                     break;
                 case "C"
 
-            }
+            }*/
         }
     }
 }

@@ -12,7 +12,6 @@ namespace TankGame_BlackOps.Game_Engine
 
         private int X;
         private int Y;
-        private int SPEED=100;
         private int health;
         private int coinCount;
         private int pointCount;

@@ -53,6 +53,7 @@
     <Compile Include="Game_Engine\BlackOps_tank.cs" />
     <Compile Include="Game_Engine\Bullet.cs" />
     <Compile Include="Game_Engine\Enemy.cs" />
+    <Compile Include="Game_Engine\Game_Launcher.cs" />
     <Compile Include="Main_window.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +126,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,1 +1,9 @@
 C:\Users\User\Documents\Visual Studio 2013\Projects\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\obj\Release\TankGame_BlackOps.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\bin\Release\TankGame_BlackOps.exe.config
+C:\Users\User\Documents\Visual Studio 2013\Projects\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\bin\Release\TankGame_BlackOps.exe
+C:\Users\User\Documents\Visual Studio 2013\Projects\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\bin\Release\TankGame_BlackOps.pdb
+C:\Users\User\Documents\Visual Studio 2013\Projects\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\obj\Release\TankGame_BlackOps.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\obj\Release\TankGame_BlackOps.Main_window.resources
+C:\Users\User\Documents\Visual Studio 2013\Projects\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\obj\Release\TankGame_BlackOps.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2013\Projects\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\obj\Release\TankGame_BlackOps.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2013\Projects\tank_game_BlackOps\TankGame_BlackOps\TankGame_BlackOps\obj\Release\TankGame_BlackOps.pdb

@@ -7,16 +7,17 @@ using System.Threading.Tasks;
 
 namespace TankGame_BlackOps.Game_Engine
 {
-    class BlackOps_tank
+    public class BlackOps_tank
     {
         private int X;
         private int Y;
-        private int SPEDD=100;
         private int health;
         private int coinCount;
         private int pointCount;
         private int direction;
         private bool isShot;
+
+        public static int TANK_NUM;
 
         //images
         Image tankRight;
@@ -31,8 +32,9 @@ namespace TankGame_BlackOps.Game_Engine
           3 - west
       */
 
-    public BlackOps_tank(int x,int y,int direction) {
-    
+    public BlackOps_tank(int tank_num,int x,int y,int direction) {
+
+        TANK_NUM = tank_num;
         this.X=x;
         this.Y=y;
         this.direction=direction;

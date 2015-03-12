@@ -22,14 +22,12 @@ namespace TankGame_BlackOps
         public static int WIDTH = 1000;
         public static int HEIGHT = 1000;
 
-        private bool running;   //game in the running state
-        private int FPS = 5;   //frames per second
 
         //Objects appear in game
         private Thread gameThread;
-        private BlackOps_tank tank;
         public static List<Enemy> EnemyTankList;
         //private ArrayList<Blast> blastList;
+        public static BlackOps_tank tank;
         public static List<Stone> stoneList;
         public static List<Brick> brickList;
         public static List<Water> waterList;
@@ -39,7 +37,8 @@ namespace TankGame_BlackOps
         public Main_window()
         {
             InitializeComponent();
-
+            this.BackgroundImage = TankGame_BlackOps.Properties.Resources.bg; //setting the background image
+            
             //initializing grid objects
             EnemyTankList = new List<Enemy>();
             stoneList = new List<Stone>();
@@ -52,38 +51,46 @@ namespace TankGame_BlackOps
            
         }
 
-        public void run()
-        {
-
-            while (true)
-            {
-                draw();
-            }
-
-
-        }
+       
 
 
         private void Main_window_Paint(object sender, PaintEventArgs e)
         {
-         /*   Graphics g = e.Graphics;
-            while (true) { 
-                for (int i = 0; i <brickList.Count; i++)
+            Graphics g = e.Graphics;
+
+                g.DrawImage(this.BackgroundImage, 0, 0);     //draw background
+
+              //  tank.draw(g);   //drawing our tank
+
+                for (int i = 0; i < EnemyTankList.Count; i++)  //drawing enemies
+                    EnemyTankList.ElementAt(i).draw(g);
+
+                for (int i = 0; i <brickList.Count; i++)  //drawing bricks
                     brickList.ElementAt(i).draw(g);
 
-                for (int i = 0; i < coinPileList.Count; i++)
+                for (int i = 0; i < stoneList.Count; i++)   //drawing stones
+                    stoneList.ElementAt(i).draw(g);
+
+                for (int i = 0; i < waterList.Count; i++)   //drawing water cells
+                    waterList.ElementAt(i).draw(g);
+
+                for (int i = 0; i < coinPileList.Count; i++)   //drawing coin piles
                     coinPileList.ElementAt(i).draw(g);
-           } */
+
+                for (int i = 0; i < lifePackList.Count; i++)  //drawing life packs
+                    lifePackList.ElementAt(i).draw(g);
          
         }
 
-        public void draw()
+        private void timer1_Tick(object sender, EventArgs e)
         {
-            Graphics g;
-            g= this.CreateGraphics();
-            for (int i = 0; i < brickList.Count; i++)
-                brickList.ElementAt(i).draw(g);
+          
+            this.Invalidate();
+            
+         
         }
+
+       
 
 
     }

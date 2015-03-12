@@ -21,7 +21,7 @@ namespace TankGame_BlackOps.Rewards
            this.Y=y;
            this.value=value;
            this.remainingTime=remainingTime;
-           this.img = TankGame_BlackOps.Properties.Resources.coin_us_dollar_by_customicondesign_d66zf9g;
+           this.img = TankGame_BlackOps.Properties.Resources.coin;
            //this.lastUpdateTime=System.currentTimeMillis();
         }
 

@@ -17,7 +17,9 @@ namespace TankGame_BlackOps.Communication
         private int connect_port = 6000;
         private TcpClient tcpclient;
         public Sender() {
+            send_buffer = new List<string>();
             sender_thread = new Thread(new ThreadStart(sender_start));
+            sender_thread.Start();
         }
         public void sender_start()
         {

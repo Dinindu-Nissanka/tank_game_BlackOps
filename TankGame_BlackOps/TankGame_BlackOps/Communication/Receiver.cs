@@ -17,7 +17,9 @@ namespace TankGame_BlackOps.Communication
         private TcpListener list;
         private string message;
         public Receiver() {
+            read_buffer = new List<string>();
             receiver_thread = new Thread(new ThreadStart(receiver_start));
+            receiver_thread.Start();
         }
 
         public void receiver_start()
@@ -36,8 +38,8 @@ namespace TankGame_BlackOps.Communication
                 while ((i = str.Read(bytes, 0, bytes.Length)) != 0)
                 {
                     message = System.Text.Encoding.ASCII.GetString(bytes, 0, i);
-                    read_buffer.Add(message);
                 }
+                read_buffer.Add(message);
                 str.Close();
                 list.Stop();
                 clnt.Close();

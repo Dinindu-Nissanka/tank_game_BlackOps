@@ -30,7 +30,7 @@ namespace TankGame_BlackOps.Rewards
          }
 
          public void draw(Graphics g)  {   //draw coin pile on screen
-             g.DrawImage(img, this.X, this.Y);
+             g.DrawImage(img, this.X*50, this.Y*50);
          }
     }
 }

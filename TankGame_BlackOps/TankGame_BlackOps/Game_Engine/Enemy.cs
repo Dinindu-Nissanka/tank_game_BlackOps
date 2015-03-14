@@ -68,13 +68,13 @@ namespace TankGame_BlackOps.Game_Engine
         public void draw(Graphics g)  //draw enemy on screen
         {
             if (direction == 0)
-                g.DrawImage(enmyUp, this.X, this.Y);
+                g.DrawImage(enmyUp, this.X*50, this.Y*50);
             else if (direction == 1)
-                g.DrawImage(enmyRight, this.X, this.Y);
+                g.DrawImage(enmyRight, this.X * 50, this.Y * 50);
             else if (direction == 2)
-                g.DrawImage(enmyDown, this.X, this.Y);
+                g.DrawImage(enmyDown, this.X * 50, this.Y * 50);
             else
-                g.DrawImage(enmyLeft, this.X, this.Y);
+                g.DrawImage(enmyLeft, this.X * 50, this.Y * 50);
         }
     }
 }

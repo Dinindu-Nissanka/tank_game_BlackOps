@@ -14,9 +14,11 @@ namespace TankGame_BlackOps.Cell
         protected Image img;
 
         public void draw(Graphics g) {
-
-            g.DrawImage(img, this.x, this.y);
+            g.DrawImage(img, this.x*50, this.y*50);
         
+        }
+        public int getXY() {
+            return x;
         }
     }
 }

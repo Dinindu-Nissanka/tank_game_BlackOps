@@ -15,12 +15,12 @@ namespace TankGame_BlackOps
         static void Main()
         {
             Main_window m = new Main_window();
-            Main_window.brickList.Add(new Brick(50,200));
+          /*  Main_window.brickList.Add(new Brick(50,200));
             Main_window.stoneList.Add(new Stone(80, 100));
             Main_window.waterList.Add(new Water(300, 40));
             Main_window.EnemyTankList.Add(new Enemy(600, 40,2));
             Main_window.coinPileList.Add(new Coin_Pile(500, 80,12,10));
-            Main_window.lifePackList.Add(new Life_Pack(400, 70,12,12));
+            Main_window.lifePackList.Add(new Life_Pack(400, 70,12,12));  */
             Application.Run(m);
             
             

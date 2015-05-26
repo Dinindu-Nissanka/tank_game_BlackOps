@@ -41,8 +41,9 @@ namespace TankGame_BlackOps.Game_Engine
 
            for (int i = 0; i < brickCordinates.Length; i++){   //intializing bricks
                cordinate=Regex.Split(brickCordinates[i], ",");
-               Main_window.brickList.Add(new Brick(int.Parse(cordinate[0]), int.Parse(cordinate[1])));
+               Main_window.brickList.Add(new Brick(int.Parse(cordinate[0]), int.Parse(cordinate[1]))); 
            }
+
 
            for (int i = 0; i < stoneCordinates.Length; i++)   //initializing stones
            {

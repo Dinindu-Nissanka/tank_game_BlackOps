@@ -22,7 +22,7 @@ namespace TankGame_BlackOps
         public static int WIDTH = 1000;
         public static int HEIGHT = 1000;
 
-
+       
         //Objects appear in game
         private Thread gameThread;
         public static List<Enemy> EnemyTankList;
@@ -37,7 +37,7 @@ namespace TankGame_BlackOps
         public Main_window()
         {
             InitializeComponent();
-            this.BackgroundImage = TankGame_BlackOps.Properties.Resources.bg; //setting the background image
+            this.BackgroundImage = TankGame_BlackOps.Properties.Resources.images; //setting the background image
             
             //initializing grid objects
             EnemyTankList = new List<Enemy>();
@@ -60,7 +60,8 @@ namespace TankGame_BlackOps
 
                 g.DrawImage(this.BackgroundImage, 0, 0);     //draw background
 
-              //  tank.draw(g);   //drawing our tank
+                if(tank!=null)
+                    tank.draw(g);   //drawing our tank
 
                 for (int i = 0; i < EnemyTankList.Count; i++)  //drawing enemies
                     EnemyTankList.ElementAt(i).draw(g);
@@ -79,6 +80,8 @@ namespace TankGame_BlackOps
 
                 for (int i = 0; i < lifePackList.Count; i++)  //drawing life packs
                     lifePackList.ElementAt(i).draw(g);
+
+               
          
         }
 

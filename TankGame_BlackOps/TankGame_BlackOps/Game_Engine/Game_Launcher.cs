@@ -38,10 +38,15 @@ namespace TankGame_BlackOps.Game_Engine
            String[] waterCordinates=Regex.Split(array[4], ";");  // get water cordinates
 
            String[] cordinate;
-
+           
            for (int i = 0; i < brickCordinates.Length; i++){   //intializing bricks
                cordinate=Regex.Split(brickCordinates[i], ",");
+<<<<<<< HEAD
                Main_window.brickList.Add(new Brick(int.Parse(cordinate[0]), int.Parse(cordinate[1]))); 
+=======
+               Main_window.brickList.Add(new Brick(int.Parse(cordinate[0]), int.Parse(cordinate[1])));
+               cordinate = null;
+>>>>>>> 5429e3e615b89cb2ef7f453f70d90419f08bb10c
            }
 
 
@@ -49,12 +54,17 @@ namespace TankGame_BlackOps.Game_Engine
            {
                cordinate = Regex.Split(stoneCordinates[i], ",");
                Main_window.stoneList.Add(new Stone(int.Parse(cordinate[0]), int.Parse(cordinate[1])));
+               cordinate = null;
            }
 
            for (int i = 0; i < waterCordinates.Length; i++)   //initializing water
            {
                cordinate = Regex.Split(waterCordinates[i], ",");
                Main_window.waterList.Add(new Water(int.Parse(cordinate[0]), int.Parse(cordinate[1])));
+               cordinate = null;
+           }
+           for (int i = 0; i < Main_window.brickList.Count; i++) {
+               Console.WriteLine(Main_window.brickList.ElementAt(i).getXY());
            }
            
        }

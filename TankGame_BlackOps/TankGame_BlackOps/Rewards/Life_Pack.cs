@@ -24,10 +24,10 @@ namespace TankGame_BlackOps.Rewards
         System.Diagnostics.Stopwatch S = new System.Diagnostics.Stopwatch();
         Image img2;
 
-        public Life_Pack(int x,int y,int value,int remainingTime) {
+        public Life_Pack(int x,int y,int remainingTime) {
            this.X=x;
            this.Y=y;
-           this.value=value;
+           this.value=20;
            this.remainingTime=remainingTime;
            img = TankGame_BlackOps.Properties.Resources.download;
            //this.lastUpdateTime=System.currentTimeMillis();
@@ -38,7 +38,7 @@ namespace TankGame_BlackOps.Rewards
         }
 
         public void draw(Graphics g) {   //draw life pack on screen
-            g.DrawImage(img, this.X, this.Y);
+            g.DrawImage(img, this.X*50, this.Y*50);
         }
 
         

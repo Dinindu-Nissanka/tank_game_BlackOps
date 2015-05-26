@@ -12,6 +12,7 @@ using TankGame_BlackOps.Rewards;
 using TankGame_BlackOps.Game_Engine;
 using System.Threading;
 using TankGame_BlackOps.Cell;
+using TankGame_BlackOps.Communication;
 
 namespace TankGame_BlackOps
 {
@@ -87,10 +88,14 @@ namespace TankGame_BlackOps
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-          
-            this.Invalidate();
-            
-         
+            this.Refresh();
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string s = textBox1.Text;
+            Sender.send_buffer.Add(s);
         }
 
        

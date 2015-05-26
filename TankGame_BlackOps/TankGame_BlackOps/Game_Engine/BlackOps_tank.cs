@@ -55,7 +55,6 @@ namespace TankGame_BlackOps.Game_Engine
     //that string we need to send to the server
     public String nextMove(){
         return null;
-        
     }
     
     
@@ -73,13 +72,13 @@ namespace TankGame_BlackOps.Game_Engine
     public void draw(Graphics g)  //draw our tank on screen
     {
         if (direction == 0)
-            g.DrawImage(tankUp, this.X, this.Y);
+            g.DrawImage(tankUp, this.X * 50, this.Y * 50);
         else if (direction == 1)
-            g.DrawImage(tankRight, this.X, this.Y);
+            g.DrawImage(tankRight, this.X * 50, this.Y * 50);
         else if (direction == 2)
-            g.DrawImage(tankDown, this.X, this.Y);
+            g.DrawImage(tankDown, this.X * 50, this.Y * 50);
         else
-            g.DrawImage(tankLeft, this.X, this.Y);
+            g.DrawImage(tankLeft, this.X * 50, this.Y * 50);
     }
 
     }
